@@ -209,9 +209,10 @@ header {
     cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     body {
         padding: 0 10px;
+        text-align: center;
     }
 
     .navBar {
@@ -219,6 +220,7 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        padding: 10px 0;
     }
 
     .navBar h2 {
@@ -229,50 +231,86 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 10px;
     }
 
     .navBar-content button {
-        width: 100%;
+        width: 80%;
+        padding: 10px;
+        font-size: 1rem;
     }
 
     .container {
-        text-align: center;
-    }
-
-    .imc-form {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        color: #666;
+    }
+
+    .btn-inicio {
+        width: 80%;
+        padding: 12px;
+        font-size: 1rem;
+        border-radius: 8px;
+    }
+
+    #calc-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imc-form {
+        width: 100%;
+        max-width: 400px;
+        background: #222;
+        padding: 20px;
+        border-radius: 10px;
     }
 
     .form-input {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
     }
 
     input {
-        width: 90%;
-        padding: 8px;
+        width: 100%;
+        padding: 10px;
         font-size: 1rem;
+        border-radius: 5px;
     }
 
     .form-btn {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+        border-radius: 5px;
     }
 
     .btns {
         display: flex;
         flex-direction: column;
         gap: 10px;
-    }
-
-    button {
         width: 100%;
-        padding: 10px;
-        font-size: 1rem;
     }
 }
