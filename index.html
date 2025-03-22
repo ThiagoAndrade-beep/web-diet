@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>WebDiet</title>
+</head>
+<body>
+    <header>
+        <ul class="navBar">
+            <h2> <a href="index.html">WebDiet</a></h2>
+            <li><a href="#">Funcionalidades</a></li>
+            <li><a href="#">Planos e preços</a></li>
+            <li><a href="#">Blog</a></li>
+
+            <div class="navBar-content">
+                <li><a href="#">Experimente grátis</a></li>
+                <button>Entrar</button>
+            </div>
+
+        </ul>
+
+    </header>
+
+    <div class="container">
+        <h1>Calcule seu IMC e descubra a melhor receita pra você</h1>
+        <h2>Calcule seu IMC em nossa calculadora</h2>
+        <button class="btn-inicio">Experimente grátis!</button>
+
+        <div id="calc-container" class="hide">
+           <form class="imc-form">
+            <div class="form-control">
+                <div class="form-input">
+                    <label for="height" id="height">Altura:</label>
+                    <input type="text" id="height-input" placeholder="Exemplo: 1,75cm">
+                </div>
+            </div>
+                
+                <div class="form-control">
+                    <div class="form-input">
+                        <label for="weight" id="weight">Peso:</label>
+                        <input type="text" id="weight-input" placeholder="Exemplo: 50kg">
+                    </div>
+                </div>
+
+                <div class="form-btn">
+                    <button class="calc-btn">Calcular</button>
+                    <button class="clear-btn">Limpar</button>
+                </div>
+           </form> 
+        </div> 
+
+        <div id="result-container" class="hide">
+            <p id="imc-number">Seu IMC: <span class="imc">80</span></p>
+            <p id="imc-info">Sua situação: <span class="info">obeso</span></p>
+            <h3>Encontre a melhor dieta para você</h3>
+            <div class="btns">
+                <button id="btn-buscar">Buscar</button>
+                <button id="btn-voltar">Voltar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

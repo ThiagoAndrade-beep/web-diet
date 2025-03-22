@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ccc;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    padding: 1rem;
+    align-items: center;
+    height: 70px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.navBar-content {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    align-items: center;
+}
+
+.navBar a {
+    color:#000;
+}
+
+.navBar-content button {
+    font-size: 14px;
+    padding: 0.8rem;
+    border-radius: 8px;
+    background-color: #32CD32;
+    color: #f8f9fa;
+    font-weight: bold;
+    align-self: center;
+    height: 50px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /*importante*/
+    color: white;
+}
+
+#calc-container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+    display: flex;
+    margin-top: 50px;   
+}
+
+.container h1 {
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+}
+
+.container h2 {
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-top: 2rem;
+    color: #ccc;    
+}
+
+.btn-inicio {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 0.8rem;
+    border-radius: 45px;
+    background-color: #32CD32; /*#1dd1a1*/
+    color: #f8f9fa;
+    font-weight: bold;
+    align-self: center;
+    height: 70px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #ccc;
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+    width: 100%;    
+}
+
+.form-btn {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 3rem;
+    width: auto;
+}
+
+.calc-btn {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #32CD32;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 190px;
+}
+
+.clear-btn {
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 190px;
+}
+
+.hide {
+    display: none !important
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1d1e33;
+    padding: 2rem;
+    min-width: 400px;
+    min-height: 400px;
+    margin-top: 2rem;
+}
+
+#imc-number {
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+#imc-info {
+    font-size: 1.4rem;
+    color: #ccc;
+}
+
+#result-container h3 {
+    margin-top: 1rem;
+    color: #dfdfdf;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 2rem;
+    color: #fff;;
+}
+
+#btn-buscar {
+    background-color: #32CD32;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn-voltar {
+    background-color:#444;
+    padding: 0.7rem;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
