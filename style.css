@@ -208,3 +208,71 @@ header {
     color: #fff;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navBar h2 {
+        font-size: 1.5rem;
+    }
+
+    .navBar-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navBar-content button {
+        width: 100%;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .imc-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    input {
+        width: 90%;
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    .form-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
